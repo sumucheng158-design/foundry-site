@@ -48,7 +48,7 @@ export default function ContactBanner() {
                 申請製造合作
               </a>
               <a
-                href="#"
+                href="#technology"
                 className="px-8 py-4 rounded-full border border-white/20 hover:border-white/40 transition-colors text-white font-semibold text-base"
               >
                 下載技術手冊

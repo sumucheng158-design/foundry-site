@@ -4,23 +4,53 @@ import Logo from "./Logo";
 const footerLinks = [
   {
     title: "技術平台",
-    links: ["Advanced Logic", "Specialty Technology", "Advanced Packaging", "製程路線圖", "設計服務"],
+    links: [
+      { label: "Advanced Logic", href: "#technology" },
+      { label: "Specialty Technology", href: "#technology" },
+      { label: "Advanced Packaging", href: "#technology" },
+      { label: "製程路線圖", href: "#technology" },
+      { label: "設計服務", href: "#contact" },
+    ],
   },
   {
     title: "製造能力",
-    links: ["潔淨室設施", "EUV 設備", "量測與檢測", "良率工程", "環保製程"],
+    links: [
+      { label: "潔淨室設施", href: "#manufacturing" },
+      { label: "EUV 設備", href: "#manufacturing" },
+      { label: "量測與檢測", href: "#manufacturing" },
+      { label: "良率工程", href: "#manufacturing" },
+      { label: "環保製程", href: "#sustainability" },
+    ],
   },
   {
     title: "合作夥伴",
-    links: ["設計夥伴計劃", "IP 生態系", "EDA 工具", "封裝測試", "代理商"],
+    links: [
+      { label: "設計夥伴計劃", href: "#contact" },
+      { label: "IP 生態系", href: "#technology" },
+      { label: "EDA 工具", href: "#technology" },
+      { label: "封裝測試", href: "#manufacturing" },
+      { label: "代理商", href: "#contact" },
+    ],
   },
   {
     title: "公司資訊",
-    links: ["關於 SiloTech", "研發創新", "永續發展", "投資人關係", "新聞中心"],
+    links: [
+      { label: "關於 SiloTech", href: "#about" },
+      { label: "研發創新", href: "#innovation" },
+      { label: "永續發展", href: "#sustainability" },
+      { label: "投資人關係", href: "#about" },
+      { label: "新聞中心", href: "#about" },
+    ],
   },
   {
     title: "支援",
-    links: ["技術支援", "工程諮詢", "文件下載", "聯絡我們", "徵才資訊"],
+    links: [
+      { label: "技術支援", href: "#contact" },
+      { label: "工程諮詢", href: "#contact" },
+      { label: "文件下載", href: "#contact" },
+      { label: "聯絡我們", href: "#contact" },
+      { label: "徵才資訊", href: "#about" },
+    ],
   },
 ];
 
@@ -37,12 +67,12 @@ export default function Footer() {
               </h4>
               <ul className="flex flex-col gap-2.5">
                 {col.links.map((link) => (
-                  <li key={link}>
+                  <li key={link.label}>
                     <a
-                      href="#"
+                      href={link.href}
                       className="text-white/40 text-xs hover:text-white/70 transition-colors"
                     >
-                      {link}
+                      {link.label}
                     </a>
                   </li>
                 ))}
@@ -60,13 +90,17 @@ export default function Footer() {
             </span>
           </div>
           <div className="flex items-center gap-6">
-            {["隱私政策", "使用條款", "Cookie 設定"].map((item) => (
+            {[
+              { label: "隱私政策", href: "#about" },
+              { label: "使用條款", href: "#about" },
+              { label: "Cookie 設定", href: "#about" },
+            ].map((item) => (
               <a
-                key={item}
-                href="#"
+                key={item.label}
+                href={item.href}
                 className="text-white/30 text-xs hover:text-white/60 transition-colors"
               >
-                {item}
+                {item.label}
               </a>
             ))}
           </div>
