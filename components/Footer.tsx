@@ -8,8 +8,6 @@ const footerLinks = [
       { label: "Advanced Logic", href: "#technology" },
       { label: "Specialty Technology", href: "#technology" },
       { label: "Advanced Packaging", href: "#technology" },
-      { label: "製程路線圖", href: "#technology" },
-      { label: "設計服務", href: "#contact" },
     ],
   },
   {
@@ -25,11 +23,7 @@ const footerLinks = [
   {
     title: "合作夥伴",
     links: [
-      { label: "設計夥伴計劃", href: "#contact" },
-      { label: "IP 生態系", href: "#technology" },
-      { label: "EDA 工具", href: "#technology" },
-      { label: "封裝測試", href: "#manufacturing" },
-      { label: "代理商", href: "#contact" },
+      { label: "申請製造合作", href: "#contact" },
     ],
   },
   {
@@ -47,7 +41,6 @@ const footerLinks = [
     links: [
       { label: "技術支援", href: "#contact" },
       { label: "工程諮詢", href: "#contact" },
-      { label: "文件下載", href: "#contact" },
       { label: "聯絡我們", href: "#contact" },
       { label: "徵才資訊", href: "#about" },
     ],
