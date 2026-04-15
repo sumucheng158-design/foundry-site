@@ -36,8 +36,8 @@ export default function ContactBanner() {
               共同定義下一世代晶片
             </h2>
             <p className="text-white/50 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-              無論是 AI 加速器、功率半導體或汽車晶片，
-              SiloTech 的工程師團隊將與您共同設計製程路線圖。
+              無論是AI加速器、功率半導體或汽車晶片，
+              SiloTech的工程師團隊將與您共同設計製程路線圖。
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

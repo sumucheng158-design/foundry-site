@@ -89,7 +89,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="text-white/50 text-lg sm:text-xl max-w-2xl leading-relaxed mb-10"
         >
-          SiloTech Foundry 以 2nm 級先進製程為核心，
+          SiloTech Foundry 以2nm級先進製程為核心，
           結合全棧封裝技術，為全球領先的半導體設計公司提供量產解決方案。
         </motion.p>
 

@@ -8,7 +8,7 @@ const platforms = [
     badge: "旗艦",
     title: "Advanced Logic",
     subtitle: "先進邏輯製程",
-    description: "從 5nm 到 2nm 全節點覆蓋，採用 FinFlex™ 多閘極電晶體技術，提供業界領先的 PPA 優化。",
+    description: "從5nm 到2nm全節點覆蓋，採用 FinFlex™多閘極電晶體技術，提供業界領先的PPA優化。",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
         <rect x="3" y="3" width="8" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.5" />
@@ -58,7 +58,7 @@ const platforms = [
     badge: "多元",
     title: "Specialty Technology",
     subtitle: "特殊技術平台",
-    description: "BCD、SiGe BiCMOS、GaN、MEMS 等差異化製程，滿足汽車、工業、物聯網的嚴苛需求。",
+    description: "BCD、SiGe BiCMOS、GaN、MEMS等差異化製程，滿足汽車、工業、物聯網的嚴苛需求。",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
         <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.5" />
@@ -94,7 +94,7 @@ const platforms = [
         name: "應用場景",
         content: [
           { spec: "電動車功率模組", value: "✓" },
-          { spec: "5G 射頻前端", value: "✓" },
+          { spec: "5G射頻前端", value: "✓" },
           { spec: "工業感測器", value: "✓" },
           { spec: "醫療裝置", value: "✓" },
           { spec: "衛星通訊", value: "✓" },
@@ -107,7 +107,7 @@ const platforms = [
     badge: "整合",
     title: "Advanced Packaging",
     subtitle: "先進封裝平台",
-    description: "CoWoS®、SoIC®、InFO 異質整合技術，突破單晶片物理極限，實現系統級晶片整合。",
+    description: "CoWoS®、SoIC®、InFO異質整合技術，突破單晶片物理極限，實現系統級晶片整合。",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
         <rect x="2" y="8" width="8" height="8" rx="1" stroke="currentColor" strokeWidth="1.5" />
@@ -143,7 +143,7 @@ const platforms = [
       {
         name: "應用場景",
         content: [
-          { spec: "AI 加速器", value: "✓" },
+          { spec: "AI加速器", value: "✓" },
           { spec: "GPU HPC", value: "✓" },
           { spec: "記憶體堆疊 (HBM)", value: "✓" },
           { spec: "Chiplet 整合", value: "✓" },

@@ -6,7 +6,7 @@ const steps = [
   {
     num: "01",
     title: "晶圓製備",
-    desc: "300mm 矽晶圓進廠檢測，確保基板缺陷密度低於 0.01/cm²",
+    desc: "300mm矽晶圓進廠檢測，確保基板缺陷密度低於 0.01/cm²",
   },
   {
     num: "02",
@@ -21,12 +21,12 @@ const steps = [
   {
     num: "04",
     title: "量測與良率優化",
-    desc: "在線 AI 缺陷分析，即時回饋製程參數，確保 99.97% 良率",
+    desc: "在線AI缺陷分析，即時回饋製程參數，確保99.97%良率",
   },
   {
     num: "05",
     title: "封裝與測試",
-    desc: "CoWoS / SoIC 先進封裝後，執行全速 ATE 電性測試",
+    desc: "CoWoS / SoIC先進封裝後，執行全速ATE電性測試",
   },
 ];
 
@@ -88,8 +88,8 @@ export default function ManufacturingLoop() {
             精密製造的每一個環節
           </h2>
           <p className="text-white/40 text-base max-w-xl mx-auto">
-            從原料矽到封裝晶片，每道工序均在 ISO Class 1 潔淨室中完成，
-            全程 AI 品質監控。
+            從原料矽到封裝晶片，每道工序均在ISO Class 1潔淨室中完成，
+            全程AI品質監控。
           </p>
         </motion.div>
 

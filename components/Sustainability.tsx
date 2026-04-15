@@ -19,7 +19,7 @@ const goals = [
   {
     year: "2027",
     title: "零廢水排放",
-    desc: "導入閉迴路超純水系統，實現 99% 製程廢水回收再利用率。",
+    desc: "導入閉迴路超純水系統，實現99%製程廢水回收再利用率。",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor" strokeWidth="1.5" />
@@ -32,7 +32,7 @@ const goals = [
   },
   {
     year: "2028",
-    title: "無 PFAS 製程",
+    title: "無PFAS製程",
     desc: "全面淘汰製程中的永久性化學物質，開發環境友善替代蝕刻材料。",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
@@ -60,10 +60,10 @@ const goals = [
 ];
 
 const metrics = [
-  { label: "再生能源佔比", value: "78%", sub: "2024 年實績" },
-  { label: "廢水回收率", value: "82%", sub: "行業平均 45%" },
+  { label: "再生能源佔比", value: "78%", sub: "2024年實績" },
+  { label: "廢水回收率", value: "82%", sub: "行業平均45%" },
   { label: "PUE 效能指標", value: "1.18", sub: "世界級潔淨室" },
-  { label: "女性工程師比例", value: "38%", sub: "高於業界平均 2.1x" },
+  { label: "女性工程師比例", value: "38%", sub: "高於業界平均2.1x" },
 ];
 
 export default function Sustainability() {

@@ -27,8 +27,8 @@ const researchAreas = [
       </svg>
     ),
     title: "神經形態運算",
-    tag: "AI 架構",
-    desc: "仿生突觸電晶體與記憶體內運算架構，將 AI 推論能耗降低 100 倍以上。",
+    tag: "AI架構",
+    desc: "仿生突觸電晶體與記憶體內運算架構，將AI推論能耗降低100倍以上。",
     metric: "1fJ/synaptic op",
     accent: "text-violet-400",
     border: "border-violet-500/20",
@@ -42,7 +42,7 @@ const researchAreas = [
     ),
     title: "光電共封裝 (CPO)",
     tag: "光子整合",
-    desc: "矽光子波導與 CMOS 電路單晶片整合，實現 Tb/s 級片內光互連。",
+    desc: "矽光子波導與CMOS電路單晶片整合，實現Tb/s級片內光互連。",
     metric: "1.6 Tb/s/mm²",
     accent: "text-amber-400",
     border: "border-amber-500/20",
@@ -66,7 +66,7 @@ const researchAreas = [
 ];
 
 const labs = [
-  { name: "新竹研發中心", area: "先進邏輯 & 封裝", staff: "1,200+" },
+  { name: "新竹研發中心", area: "先進邏輯&封裝", staff: "1,200+" },
   { name: "台南量子實驗室", area: "量子與低溫電路", staff: "280+" },
   { name: "美國矽谷研究所", area: "AI 晶片架構", staff: "450+" },
   { name: "歐洲光子實驗室", area: "矽光子整合", staff: "180+" },
@@ -105,7 +105,7 @@ export default function Innovation() {
             定義下一個十年的技術
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto leading-relaxed">
-            SiloTech 每年投入營收 15% 於研發，橫跨材料、元件、架構三個層次，
+            SiloTech每年投入營收15%於研發，橫跨材料、元件、架構三個層次，
             佈局後摩爾定律時代的核心技術。
           </p>
         </motion.div>

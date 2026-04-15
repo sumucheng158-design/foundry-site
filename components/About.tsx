@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 
 const timeline = [
   { year: "2009", event: "創立於新竹科學園區，初期聚焦 28nm 特殊製程" },
-  { year: "2013", event: "完成 B 輪融資，建立首座 300mm 晶圓廠" },
+  { year: "2013", event: "完成B輪融資，建立首座300mm晶圓廠" },
   { year: "2017", event: "推出 7nm FinFET 製程，正式進入先進邏輯領域" },
   { year: "2020", event: "EUV 光刻導入量產，客戶數突破 100 家" },
   { year: "2022", event: "啟動台南 Fab 3，專注先進封裝與 3D IC" },
@@ -15,7 +15,7 @@ const leadership = [
   {
     name: "陳文博",
     title: "董事長暨執行長",
-    bio: "前 TSMC 先進技術研發副總，主導 5nm 以下製程開發，史丹佛電機博士。",
+    bio: "前TSMC先進技術研發副總，主導5nm以下製程開發，史丹佛電機博士。",
     initials: "CB",
     color: "from-blue-600 to-blue-800",
   },
@@ -29,14 +29,14 @@ const leadership = [
   {
     name: "James Wu",
     title: "營運長 (COO)",
-    bio: "前 Intel 製造副總，主導全球五座晶圓廠運營，六標準差黑帶認證。",
+    bio: "前Intel製造副總，主導全球五座晶圓廠運營，六標準差黑帶認證。",
     initials: "JW",
     color: "from-emerald-600 to-emerald-800",
   },
   {
     name: "Sophie Chen",
     title: "財務長 (CFO)",
-    bio: "哈佛 MBA，主導 SiloTech IPO 及三次重大策略併購，累計資本市場經驗 20 年。",
+    bio: "哈佛MBA，主導SiloTech IPO及三次重大策略併購，累計資本市場經驗20年。",
     initials: "SC",
     color: "from-amber-600 to-amber-800",
   },
@@ -69,11 +69,11 @@ export default function About() {
             About SiloTech
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-5">
-            15 年的精密積累
+            15年的精密積累
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto leading-relaxed">
             從新竹一座小型廠房，到全球五大製造據點、25,000 名工程師的半導體重鎮，
-            SiloTech 始終以技術驅動一切。
+            SiloTech始終以技術驅動一切。
           </p>
         </motion.div>
 

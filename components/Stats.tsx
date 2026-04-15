@@ -3,10 +3,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-  { value: "2nm", label: "最先進製程節點", sub: "FinFlex™ 電晶體架構" },
+  { value: "2nm", label: "最先進製程節點", sub: "FinFlex™電晶體架構" },
   { value: "300+", label: "專利技術", sub: "先進製程與封裝領域" },
   { value: "99.97%", label: "晶圓良率", sub: "業界領先水準" },
-  { value: "40+", label: "全球合作夥伴", sub: "涵蓋 15 個國家與地區" },
+  { value: "40+", label: "全球合作夥伴", sub: "涵蓋15個國家與地區" },
 ];
 
 export default function Stats() {
